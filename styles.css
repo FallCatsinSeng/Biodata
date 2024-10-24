@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #ffffff33;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    font-size: 24px;
+    color: #fff;
+    margin: 20px 0 10px;
+}
+
+.title {
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #eee;
+    margin-bottom: 10px;
+}
+
+.social-media .btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.social-media .btn:hover {
+    background: #888;
+}
+
+.social-media .btn:active {
+    background: #666;
+}
